@@ -4,28 +4,57 @@
     <title>Sanskruti Phalke | Portfolio</title>
     <style>
         body {
-            font-family: Arial;
             margin: 0;
-            background-color: #f5f7fa;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f9;
         }
+
         header {
-            background-color: #1f2937;
+            background: linear-gradient(90deg, #4f46e5, #06b6d4);
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 50px 20px;
         }
-        section {
-            padding: 20px;
-            margin: 20px;
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .card {
             background: white;
+            padding: 20px;
+            margin: 20px 0;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
+
         h2 {
-            color: #1f2937;
+            color: #4f46e5;
         }
+
         .project {
             margin-bottom: 15px;
+        }
+
+        a {
+            color: #06b6d4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -37,65 +66,77 @@
     <p>Cloud, Data & IoT Enthusiast | BTech CSE</p>
 </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        Final-year BTech Computer Science student with hands-on experience in data analytics,
-        dashboard development, and automation. Completed internship at Tropicool Car Gadgets,
-        working on real-time business dashboards and data-driven insights.
-    </p>
-</section>
+<div class="container">
 
-<section>
-    <h2>Skills</h2>
-    <p>
-        Python | Power BI | Excel | Data Visualization | Cloud Computing (Learning) | IoT Basics
-    </p>
-</section>
-
-<section>
-    <h2>Projects</h2>
-
-    <div class="project">
-        <h3>📊 Sales & Customer Funnel Dashboard (Internship Project)</h3>
+    <div class="card">
+        <h2>About Me</h2>
         <p>
-            Developed a real-time interactive dashboard during internship at Tropicool Car Gadgets.
-            The dashboard analyzes sales performance and customer funnel stages to improve business decision-making.
+            Final-year BTech Computer Science student with hands-on experience in data analytics,
+            dashboard development, and automation. Completed internship at Tropicool Car Gadgets,
+            where I built real-time business dashboards and worked on data-driven insights.
         </p>
-        <ul>
-            <li>Built using Power BI and Excel</li>
-            <li>Analyzed customer conversion funnel</li>
-            <li>Provided actionable insights for sales optimization</li>
-        </ul>
     </div>
 
-    <div class="project">
-        <h3>☁️ Cloud Resource Monitoring System (In Progress)</h3>
+    <div class="card">
+        <h2>Skills</h2>
         <p>
-            Building a cloud-based system to monitor CPU and memory usage with real-time visualization.
+            Python | Power BI | Excel | Data Visualization | Cloud Computing (Learning) | IoT Basics
         </p>
-        <ul>
-            <li>Using Python (Flask) and system monitoring tools</li>
-            <li>Focus on automation and scalability</li>
-        </ul>
     </div>
 
-</section>
+    <div class="card">
+        <h2>Projects</h2>
 
-<section>
-    <h2>Internship Experience</h2>
-    <p>
-        <strong>Tropicool Car Gadgets</strong><br>
-        Worked on real-time data dashboards, data cleaning, and visualization.
-        Gained hands-on experience in business analytics and reporting.
-    </p>
-</section>
+        <div class="project">
+            <h3>📊 Sales & Customer Funnel Dashboard</h3>
+            <p>
+                Developed a real-time interactive dashboard during internship at Tropicool Car Gadgets.
+                It analyzes sales performance and customer conversion funnel to improve decision-making.
+            </p>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: your-email@gmail.com</p>
-    <p>GitHub: https://github.com/yourusername</p>
-</section>
+            <ul>
+                <li>Built using Power BI & Excel</li>
+                <li>Analyzed customer journey and conversions</li>
+                <li>Provided actionable business insights</li>
+            </ul>
+
+            <a href="2408.stage2 (1).pdf" target="_blank">📄 View Project Report</a>
+
+            <br>
+            <img src="your-image.png" width="400">
+        </div>
+
+        <div class="project">
+            <h3>☁️ Cloud Resource Monitoring System (In Progress)</h3>
+            <p>
+                Developing a system to monitor CPU and memory usage with real-time visualization.
+                Focused on automation and scalability.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h2>Internship</h2>
+        <p>
+            <strong>Tropicool Car Gadgets</strong><br>
+            Worked on real-time dashboards, data cleaning, and business analytics.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>GitHub</h2>
+        <a href="https://github.com/phalkesanskruti-27" target="_blank">
+            View My GitHub Profile
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p>Email: phalkesanskruti1@gmail.com</p>
+    </div>
+
+</div>
 
 </body>
 </html>
